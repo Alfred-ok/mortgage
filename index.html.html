@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage</title>
+    <link rel="stylesheet" href="mortgage.css">
+    <script src="C:/Users/Alfred/Downloads/Programming/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/js/all.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!--Side list-->
+        <aside class="aside-nav">
+            <ul class="aside-ul">
+                <li class="logo">
+                    <i class="fa-solid fa-gem"></i>
+                    <i class="fa-solid fa-angles-left back" id="side-nav"></i>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-solid fa-home"></i>
+                    <span>Home</span>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-solid fa-bahai"></i>
+                    <span>Mortgage</span>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <span>cards</span>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Products</span>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-regular fa-file-lines"></i>
+                    <span>Reports</span>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>History</span>
+                </li>
+            </ul>
+
+            <!--Extar side list-->
+
+            <ul class="aside-ul-more">
+                <li class="aside-list">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="settings">Settings</span>
+                </li>
+                <li class="aside-list">
+                    <i class="fa-regular fa-clock"></i>
+                    <span class="privacy">Privacy</span>
+                </li>
+            </ul>
+
+            <ul class="aside-support">
+                <li class="aside-list-support">
+                    <h3>Support</h3>
+                    <p>At Vero eos et harum quidem rerum quidem facilis est consectus?</p>
+                </li>
+                <li class="aside-list-button">
+                    <button class="online">Online Enquiry</button>
+                </li>
+            </ul>
+        </aside>
+
+
+        <!--Main-->
+
+
+        <main>
+            <!--Main navbar-->
+            <nav>
+                <ul class="navbar-ul">
+                    <li class="search">
+                        <i class="fa-solid fa-search search-icon"></i>
+                        <input type="text" placeholder="Search" class="search-input">
+                    </li>
+                    <li class="profile">
+                        <i class="fa-regular fa-bell notification"></i>
+                        <i class="fa-solid fa-user-circle user"></i>
+                        <select class="select">
+                            <option value="Daisy Murphy">Daisy Murphy</option>
+                            <option value="Martin Lawrence">Martin Lawrence</option>
+                            <option value="John Doe">John Doe</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--Mortgage-->
+
+
+            <div class="mortgage">
+                <div class="mortgageDate">
+                    <h1>Mortgage</h1>
+                    <p>Until May 24, 2034</p>
+                </div>
+                <div class="payMoney">
+                    <button class="payOff">Pay Off</button>
+                    <button class="addMoney"><i class="fa-solid fa-plus"></i>  Add Money</button>
+                </div>
+            </div>
+
+
+            <div class="mortgageCards">
+                <div class="mortgageCredit" id="border-pink">
+                    <div class="credit1">
+                        <i class="fa-solid fa-bahai fa-3x icon-mortgage"></i>
+                        <p>Rate: 10.3%</p>
+                    </div>
+                    <div class="credit2">
+                        <h2>$128,876.45</h2>
+                        <p>Credit Amount</p>
+                    </div>
+                </div>
+
+                <div class="mortgageCredit" id="border-blue">
+                    <div class="credit1">
+                        <i class="fa-solid fa-calendar-day fa-3x" id="icon-calendar"></i>
+                        <p>!</p>
+                    </div>
+                    <div class="credit2">
+                        <h2>Aug 06, 2020</h2>
+                        <p>Next Payment</p>
+                    </div>
+                </div>
+
+                <div class="mortgageCredit" id="border-orange">
+                    <div class="credit1">
+                        <i class="fa-solid fa-dollar-sign fa-3x" id="icon-dollar"></i>
+                    </div>
+                    <div class="credit2">
+                        <h2>$22,123</h2>
+                        <p>Payment Amount</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Recent Activtiy-->
+
+
+            <div class="recent-activity">
+                <div class="Activity-head">
+                    <div>
+                        <h2>Recent activity</h2>
+                    </div>
+                    <div class="period">
+                        <p>Period</p>
+                        <p>Oct 01 - Dec 31 <i class="fa-solid fa-calendar-week"></i></p>
+                        <i class="fa-solid fa-bars" id="bars"></i>
+                    </div>
+                </div>
+
+                <div class="Activity-body">
+                    <div class="body-head1">
+                        <h4>TRANSACTION</h4>
+                        <h4>AMOUNT</h4>
+                        <h4>DATE</h4>
+                    </div>
+                    <div class="body-body-activities">
+                        <div class="individual-activity">
+                            <div class="individual">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Added from account ****7835</p>
+                            </div>
+                            <div class="individual">
+                                <p>$31,481.00</p>
+                                <p>*</p>
+                            </div>                              
+                            <div>May 14,2020</div>
+                        </div>
+                        <div class="individual-activity">
+                            <div class="individual">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Added from account ****7835</p>
+                            </div>
+                            <div class="individual">
+                                <p>$31,481.00</p>
+                                <p>*</p>
+                            </div>                              
+                            <div>May 14,2020</div>
+                        </div>
+                        <div class="individual-activity">
+                            <div class="individual">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Added from account ****7835</p>
+                            </div>
+                            <div class="individual">
+                                <p>$31,481.00</p>
+                                <p>*</p>
+                            </div>                              
+                            <div>May 14,2020</div>
+                        </div>
+                        <div class="individual-activity">
+                            <div class="individual">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Added from account ****7835</p>
+                            </div>
+                            <div class="individual">
+                                <p>$31,481.00</p>
+                                <p>*</p>
+                            </div>                              
+                            <div>May 14,2020</div>
+                        </div>
+                        <div class="individual-activity">
+                            <div class="individual">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Added from account ****7835</p>
+                            </div>
+                            <div class="individual">
+                                <p>$31,481.00</p>
+                                <p>*</p>
+                            </div>                              
+                            <div>May 14,2020</div>
+                        </div>
+                        <div class="individual-activity">
+                            <div class="individual">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>Added from account ****7835</p>
+                            </div>
+                            <div class="individual">
+                                <p>$31,481.00</p>
+                                <p>*</p>
+                            </div>                              
+                            <div>May 14,2020</div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <!--aside-->
+
+
+        <aside class="aside-information">
+
+            <div class="information">
+                <h2>Information</h2>
+                <button><i class="fa-solid fa-close"></i></button>
+            </div>
+            <div class="mortgage-summary">
+                <div class="bahai"><i class="fa-solid fa-bahai"></i></div>
+                <div class="summary">
+                    <h3>$978,679.00</h3>
+                    <p>Credit amount</p>
+                </div>
+            </div>
+            <div class="mortgage-summary">
+                <div class="bahai" style="background-color: #3b5bdb;"><i class="fa-solid fa-dollar-sign"></i></div>
+                <div class="summary">
+                    <h3>$128,876.45</h3>
+                    <p>Credit amount left</p>
+                </div>
+            </div>
+            <div class="mortgage-summary">
+                <div class="bahai" style="background-color: #ff922b;color: #fff;"><i class="fa-solid fa-arrow-down"></i></div>
+                <div class="summary">
+                    <h3>$758,412.55</h3>
+                    <p>income</p>
+                </div>
+            </div>
+
+            <h3 class="detail">Details</h3>
+            <div class="Agree">
+                <div class="Agreement">
+                    <p>Agreement #</p>
+                    <p class="detail-num">244/1241-235231</p>
+                </div>
+                <div class="Agreement">
+                    <p>Currency</p>
+                    <p class="detail-num">USD</p>
+                </div>
+                <div class="Agreement">
+                    <p>Rate</p>
+                    <p class="detail-num">10.3%</p>
+                </div>
+                <div class="Agreement">
+                    <p>Signed on</p>
+                    <p class="detail-num">Dec 18, 2019</p>
+                </div>
+                <div class="Agreement">
+                    <p>Contract term</p>
+                    <p class="detail-num">182 mo</p>
+                </div>   
+            </div>
+
+            <div class="pay-schedule">
+                <p>Payment Schedule</p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+            <h3 class="statements">Statements</h3>
+            <div class="downbtn">
+                <div class="btnIcon">
+                    <i class="fa-solid fa-file-download" style="color: #37b14d;"></i>
+                    <h4>2020</h4>
+                </div>
+                <div style="color: #cdcdcd;">May 24,2020</div>
+            </div>
+            <div class="downbtn">
+                <div class="btnIcon">
+                    <i class="fa-solid fa-file-download" style="color: #37b14d;"></i>
+                    <h4>2020</h4>
+                </div>
+                <div style="color: #cdcdcd;">May 18,2019</div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

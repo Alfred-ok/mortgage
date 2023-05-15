@@ -1,0 +1,458 @@
+/**
+main background(darkgray) - color="#23272b"
+aside background - color="#24282c"
+Recent activity background - color="#2a2e32"
+mortgage background - color="#2a2e32"
+mortgagechildicon1 - color="#d6336c"
+mortgagechildicon2 - color="#3b5bdb"
+mortgagechildicon3 - color="#ff922b"
+green - color="#37b14d"
+**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2f2f2f;
+}
+
+
+/** aside nav**/
+
+
+.aside-nav{
+    flex: 1;
+    padding: 20px;
+    background-color: #24282c;
+    color: #9c9c9c;
+}
+.aside-nav .aside-ul{
+    list-style: none;
+    font-size: 14px;
+    border-bottom: 1px solid #4d4d4d;
+    padding-bottom: 30px;
+}
+.aside-nav .aside-ul .aside-list{
+    margin: 10px 5px;
+    display: flex;
+    padding: 10px 25px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.aside-ul .logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 30px 30px;
+}
+.aside-ul .logo .back{
+    padding: 5px;
+    border-radius: 10px;
+}
+.aside-ul .logo .back:hover{
+    background-color: #4d4d4d;
+}
+.aside-ul .aside-list:nth-child(3){
+    color: #fff;
+    background-color: #3b5bdb;
+}
+
+.aside-nav .aside-ul .aside-list:hover{
+    color: #fff;
+    background-color: #3b5bdb;
+}
+.aside-nav .aside-ul .aside-list span{
+    margin: 0px 0px 0px 15px ;
+}
+
+.aside-ul-more{
+    list-style: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+.aside-ul-more .aside-list{
+    margin: 10px 0px;
+    padding: 10px 25px;
+    border-radius: 12px;
+    width: 100%;
+}
+.aside-ul-more .aside-list:hover{
+    color: #fff;
+    background-color: #3b5bdb;
+}
+.aside-ul-more .aside-list .settings{
+    margin-left: 10px;
+}
+.aside-ul-more .aside-list .privacy{
+    margin-left: 10px;
+}
+
+
+.aside-support{
+    list-style: none;
+    margin-top: 100px;
+    text-align: center;
+}
+.aside-list-support{
+    text-align: center;
+}
+.aside-list-support h3{
+    margin: 5px;
+    padding: 5px;
+}
+.aside-list-support p{
+    font-size: 13px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.aside-list-button{
+    padding: 5px;
+    margin: 5px;
+}
+.aside-list-button .online{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #2a2e32;
+    color: #9c9c9c;
+}
+
+
+/**main**/
+
+
+main{
+    flex: 5;
+    padding: 5px 30px;
+    background-color: #1d1f21;
+}
+nav{
+    padding: 10px;
+    border-bottom: 1px solid #2a2e32;
+}
+nav .navbar-ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .navbar-ul .search{
+    width: 70%;
+}
+nav .navbar-ul .search .search-icon{
+    color: #9c9c9c;
+}
+nav .navbar-ul .search .search-input{
+    width: 90%;
+    background-color: #1d1f21;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    color: #9c9c9c;
+}
+
+.profile{
+    width: 30%;
+    color: #9c9c9c;
+    font-size: 20px;
+}
+
+.profile .notification{
+    padding: 0px 10px;
+}
+
+
+.profile .user{
+    padding: 0px 10px;
+    color: #d6336c;
+    font-size: 24px;
+}
+.profile .select{
+    background-color: #1d1f21;
+    color: #9c9c9c;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+
+
+/**Mortgage**/
+
+
+.mortgage{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.mortgageDate{
+    padding: 5px 10px;
+}
+.mortgageDate h1{
+    padding: 10px 40px;
+}
+.mortgageDate p{
+    padding: 0px 40px;
+}
+
+.mortgageDate h1{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+.mortgageDate p{
+    color: #707070;
+}
+
+.payMoney{
+    margin: 10px;
+    padding: 10px 20px;
+}
+.payMoney .payOff{
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #383b3e;
+    color: #cdcdcd;
+}
+.payMoney .addMoney{
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #3b5bdb;
+    color: #cdcdcd;
+}
+
+
+.mortgageCards{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.mortgageCards .mortgageCredit {
+    padding: 20px;
+    background-color: #24282c;
+    border-radius: 10px;
+}
+
+.mortgageCredit .credit1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#border-pink{
+    border-top: 5px solid #d6336c;
+}
+#border-blue{
+    border-top: 5px solid #3b5bdb;
+}
+#border-orange{
+    border-top: 5px solid #ff922b;
+}
+
+.mortgageCredit .credit1 .icon-mortgage{
+    margin: -10px 0px 0px 5px;
+    background-color: #d6336c;
+    padding: 10px;
+    color: #cdcdcd;
+    font-size: 35px;
+    border-radius: 50%;
+}
+.mortgageCredit .credit1 p{
+    font-size: small;
+    margin: 10px 0px 0px 40px;
+    color: #cdcdcd;
+}
+
+.mortgageCredit .credit2{
+    margin: 8px 0px 0px 5px;
+    color: #cdcdcd;
+    padding: 10px;
+}
+.mortgageCredit .credit1 #icon-calendar{
+    margin: -10px 0px 0px 5px;
+    background-color: #3b5bdb;
+    padding: 10px;
+    color: #cdcdcd;
+    font-size: 35px;
+    border-radius: 50%;
+}
+.mortgageCredit .credit1 #icon-dollar{
+    margin: -10px 0px 0px 5px;
+    background-color: #ff922b;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 35px;
+    border-radius: 50%;
+}
+
+
+/**Recent Activity**/
+.recent-activity{
+    margin: 2px 20px;
+    padding: 10px 20px;
+}
+.Activity-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.Activity-head h2{
+    margin: 0px 20px;
+    color: #fff;
+}
+.Activity-head .period{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+.Activity-head .period P{
+    color: #fff;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.Activity-head .period #bars{
+    margin: 0px 10px;
+    padding: 0px 10px;
+    color: #cdcdcd;
+}
+
+.Activity-body{
+    padding: 10px;
+    margin: 0px 20px;
+    background-color: #2a2e32;
+    border-radius: 10px;
+}
+.Activity-body .body-head1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid #4d4d4d;
+    color: #9c9c9c;
+}
+
+.body-body-activities .individual-activity{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid #4d4d4d;
+    color: rgb(220, 219, 219);
+}
+.body-body-activities .individual-activity:last-child{
+    border: none;
+}
+.individual-activity .individual{
+    display: flex;
+    justify-content: space-around;
+}
+.individual-activity .individual p{
+    margin: 0px 20px ;
+}
+
+
+/** aside**/
+
+
+.aside-information{
+    flex: 1.5;
+    background-color: #24282c;
+    padding: 20px;
+
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 30px;
+    padding: 20px 0px;
+    color: rgb(220, 219, 219);
+    border-bottom: 1px solid #4d4d4d;
+}
+.information button{
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #4d4d4d;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 30px;
+    color: #fff;
+}
+.mortgage-summary{
+    display: flex;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.mortgage-summary .bahai{
+    padding: 10px;
+    background-color: #d6336c;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #cdcdcd;
+}
+.mortgage-summary .summary{
+    padding: 0px 10px;
+    margin: 0px 10px;
+    color: #cdcdcd;
+}
+.mortgage-summary .summary p{
+    color: #707070;
+}
+
+.aside-information .detail{
+    color: #cdcdcd;
+    padding: 20px 10px;
+}
+.aside-information .Agree{
+    padding: 0px 10px;
+}
+.aside-information .Agreement{
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+    border-bottom: 1px solid #383b3e;
+    padding: 10px 0px;
+}
+.aside-information .Agreement .detail-num{
+    color: #cdcdcd;
+}
+.pay-schedule{
+    padding: 12px 20px ;
+    background-color: #383b3e;
+    display: flex;
+    justify-content: space-between;
+    color: #cdcdcd;
+    border-radius: 10px;
+}
+.statements{
+    color: #cdcdcd;
+    margin: 12px 10px;
+}
+.downbtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+    background-color: #383b3e;
+    padding: 12px 10px;
+    border-radius: 10px;
+}
+.btnIcon{
+    display: flex;
+    color: #cdcdcd;
+}
+.btnIcon h4{
+    margin:0px 20px;
+}
